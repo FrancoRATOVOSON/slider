@@ -68,6 +68,13 @@ const mainMenuTemplate = [
                     mainWindow.webContents.toggleDevTools();
                 },
             },
+            {
+                label: "Reload",
+                accelerator: "Ctrl+r",
+                click() {
+                    mainWindow.reload();
+                },
+            },
         ],
     },
 ];

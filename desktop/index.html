@@ -4,6 +4,7 @@
         <title>Slider</title>
         <link rel="stylesheet" href="reveal.js/dist/reveal.css" />
         <link rel="stylesheet" href="reveal.js/dist/theme/black.css" />
+        <link rel="stylesheet" href="./Views/CSS/Step.css">
     </head>
     <body>
         <div class="reveal">
@@ -11,14 +12,26 @@
                 <section>Slide 1</section>
                 <section>
                     <section>Slide 2</section>
+                    <section data-markdown>
+                        <textare data-template>
+                        ```js [1|2|3|4]
+                            <div class="step">Step 1 <section>Data 1</section> </div>
+                            <div class="step">Step 2 <section>Data 2</section> </div>
+                            <div class="step">Step 3 <section>Data 3</section> </div>
+                            <div class="step">Step 4 <section>Data 4</section> </div>
+                        ```
+                        </textarea>
+                    </section>
                     <section>Slide 3</section>
                 </section>
                 <section>Slide 4</section>
             </div>
         </div>
-        <script src="./Views/Events.js"></script>
-        <script src="./Views/Binder.js"></script>
+        <script src="./Views/JavaScripts/Events.js"></script>
+        <script src="./Views/JavaScripts/Binder.js"></script>
         <script src="reveal.js/dist/reveal.js"></script>
-        <script src="./Views/Slide.js"></script>
+        <script src="reveal.js/plugin/markdown/markdown.js"></script>
+        <script src="reveal.js/plugin/highlight/highlight.js"></script>
+        <script src="./Views/JavaScripts/Slide.js"></script>
     </body>
 </html>

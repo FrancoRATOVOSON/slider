@@ -1,0 +1,87 @@
+.concept {
+  background-color: #fafafa;
+  color: #1a1a1a;
+}
+
+.red {
+  background-color: #ff6052;
+  color: #fafafa;
+}
+.red--progress {
+  color: #fafafa;
+  background: linear-gradient(180deg, #ff7366 0%, #ff6052 50%, #f55142 100%);
+}
+
+.orange {
+  background-color: #ff8b52;
+  color: #fafafa;
+}
+.orange--progress {
+  color: #fafafa;
+  background: linear-gradient(180deg, #ff9966 0%, #ff8b52 50%, #fa7938 100%);
+}
+
+.yellow {
+  background-color: #ffe252;
+  color: #5a5a5a;
+}
+.yellow--progress {
+  color: #5a5a5a;
+  background: linear-gradient(180deg, #ffe666 0%, #ffe252 50%, #f5d63d 100%);
+}
+
+.green {
+  background-color: #7dff52;
+  color: #5a5a5a;
+}
+.green--progress {
+  color: #5a5a5a;
+  background: linear-gradient(180deg, #8cff66 0%, #7dff52 50%, #6bf53d 100%);
+}
+
+.aqua {
+  background-color: #52ffe2;
+  color: #5a5a5a;
+}
+.aqua--progress {
+  color: #5a5a5a;
+  background: linear-gradient(180deg, #66ffe6 0%, #52ffe2 50%, #3df5d6 100%);
+}
+
+.blue {
+  background-color: #4d5bff;
+  color: #fafafa;
+}
+.blue--progress {
+  color: #fafafa;
+  background: linear-gradient(180deg, #6673ff 0%, #4d5bff 50%, #3d4cf5 100%);
+}
+
+.violet {
+  background-color: #a852ff;
+  color: #fafafa;
+}
+.violet--progress {
+  color: #fafafa;
+  background: linear-gradient(180deg, #b066ff 0%, #a852ff 50%, #963df5 100%);
+}
+
+.pink {
+  background-color: #ff52c5;
+  color: #fafafa;
+}
+.pink--progress {
+  color: #fafafa;
+  background: linear-gradient(180deg, #ff66cc 0%, #ff52c5 50%, #f53db8 100%);
+}
+
+.marron {
+  background-color: #ffb752;
+  color: #fafafa;
+}
+.marron--progress {
+  color: #fafafa;
+  background: linear-gradient(180deg, #ffbf66 0%, #ffb752 50%, #f5a83d 100%);
+}
+
+/*# sourceMappingURL=light.css.map */

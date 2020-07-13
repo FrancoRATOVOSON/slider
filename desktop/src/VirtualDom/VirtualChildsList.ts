@@ -35,9 +35,9 @@ class VirtualChildsList {
         var result: string = "";
         this.#childList.forEach(
             (child) =>
-                (result += `\n\t${
+                (result += `${
                     typeof child == "string" ? child : child.render()
-                }\n`)
+                }`)
         );
         return result;
     }

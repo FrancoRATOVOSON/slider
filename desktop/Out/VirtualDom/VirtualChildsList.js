@@ -37,7 +37,7 @@ class VirtualChildsList {
     }
     render() {
         var result = "";
-        __classPrivateFieldGet(this, _childList).forEach((child) => (result += `\n\t${typeof child == "string" ? child : child.render()}\n`));
+        __classPrivateFieldGet(this, _childList).forEach((child) => (result += `${typeof child == "string" ? child : child.render()}`));
         return result;
     }
 }

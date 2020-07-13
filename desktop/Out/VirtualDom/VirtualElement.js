@@ -65,7 +65,7 @@ class VirtualElement {
         this.Childs != undefined && this.Childs.addElement(text);
     }
     render() {
-        return `<${this.Name}${this.Attributes.Length < 1 ? "" : this.Attributes.render()}${this.Childs == undefined
+        return `${this.Name == "html" ? "<!DOCTYPE html>\n" : ""}<${this.Name}${this.Attributes.Length < 1 ? "" : this.Attributes.render()}${this.Childs == undefined
             ? "/>"
             : `>${this.Childs.render()}</${this.Name}>`}`;
     }

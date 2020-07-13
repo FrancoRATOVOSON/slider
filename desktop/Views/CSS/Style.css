@@ -1,0 +1,8 @@
+html {
+    font-family: "Calling code";
+    font-size: 16px;
+}
+
+.concept__view > * {
+    font-size: 3rem;
+}

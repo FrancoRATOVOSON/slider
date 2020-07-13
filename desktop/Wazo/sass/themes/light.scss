@@ -1,0 +1,151 @@
+$redGradientStart: #ff7366;
+$redGradientEnd: #f55142;
+$red: #ff6052;
+$orangeGradientStart: #ff9966;
+$orangeGradientEnd: #fa7938;
+$orange: #ff8b52;
+$yellowGradientStart: #ffe666;
+$yellowGradientEnd: #f5d63d;
+$yellow: #ffe252;
+$greenGradientStart: #8cff66;
+$greenGradientEnd: #6bf53d;
+$green: #7dff52;
+$aquaGradientStart: #66ffe6;
+$aquaGradientEnd: #3df5d6;
+$aqua: #52ffe2;
+$blueGradientStart: #6673ff;
+$blueGradientEnd: #3d4cf5;
+$blue: #4d5bff;
+$violetGradientStart: #b066ff;
+$violetGradientEnd: #963df5;
+$violet: #a852ff;
+$pinkGradientStart: #ff66cc;
+$pinkGradientEnd: #f53db8;
+$pink: #ff52c5;
+$marronGradientStart: #ffbf66;
+$marronGradientEnd: #f5a83d;
+$marron: #ffb752;
+
+.concept {
+    background-color: #fafafa;
+    color: #1a1a1a;
+}
+
+.red {
+    background-color: $red;
+    color: #fafafa;
+    &--progress {
+        color: #fafafa;
+        background: linear-gradient(
+            180deg,
+            $redGradientStart 0%,
+            $red 50%,
+            $redGradientEnd 100%
+        );
+    }
+}
+
+.orange {
+    background-color: $orange;
+    color: #fafafa;
+    &--progress {
+        color: #fafafa;
+        background: linear-gradient(
+            180deg,
+            $orangeGradientStart 0%,
+            $orange 50%,
+            $orangeGradientEnd 100%
+        );
+    }
+}
+.yellow {
+    background-color: $yellow;
+    color: #5a5a5a;
+    &--progress {
+        color: #5a5a5a;
+        background: linear-gradient(
+            180deg,
+            $yellowGradientStart 0%,
+            $yellow 50%,
+            $yellowGradientEnd 100%
+        );
+    }
+}
+.green {
+    background-color: $green;
+    color: #5a5a5a;
+    &--progress {
+        color: #5a5a5a;
+        background: linear-gradient(
+            180deg,
+            $greenGradientStart 0%,
+            $green 50%,
+            $greenGradientEnd 100%
+        );
+    }
+}
+.aqua {
+    background-color: $aqua;
+    color: #5a5a5a;
+    &--progress {
+        color: #5a5a5a;
+        background: linear-gradient(
+            180deg,
+            $aquaGradientStart 0%,
+            $aqua 50%,
+            $aquaGradientEnd 100%
+        );
+    }
+}
+.blue {
+    background-color: $blue;
+    color: #fafafa;
+    &--progress {
+        color: #fafafa;
+        background: linear-gradient(
+            180deg,
+            $blueGradientStart 0%,
+            $blue 50%,
+            $blueGradientEnd 100%
+        );
+    }
+}
+.violet {
+    background-color: $violet;
+    color: #fafafa;
+    &--progress {
+        color: #fafafa;
+        background: linear-gradient(
+            180deg,
+            $violetGradientStart 0%,
+            $violet 50%,
+            $violetGradientEnd 100%
+        );
+    }
+}
+.pink {
+    background-color: $pink;
+    color: #fafafa;
+    &--progress {
+        color: #fafafa;
+        background: linear-gradient(
+            180deg,
+            $pinkGradientStart 0%,
+            $pink 50%,
+            $pinkGradientEnd 100%
+        );
+    }
+}
+.marron {
+    background-color: $marron;
+    color: #fafafa;
+    &--progress {
+        color: #fafafa;
+        background: linear-gradient(
+            180deg,
+            $marronGradientStart 0%,
+            $marron 50%,
+            $marronGradientEnd 100%
+        );
+    }
+}

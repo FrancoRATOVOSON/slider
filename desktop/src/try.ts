@@ -1,4 +1,4 @@
-//import Slider from "./VirtualDom/Slider";
+import Slider from "./VirtualDom/Slider";
 
 /*
 let section = Slider.createElement({
@@ -14,7 +14,6 @@ let div = Slider.createElement({
 console.log(div.render());
 */
 
-/*
 let head = Slider.createElement({
     name: "head",
     attributes: [],
@@ -80,7 +79,7 @@ let html = Slider.createRootElement();
 html.addChildElement(head);
 html.addChildElement(body);
 console.log(html.render());
-*/
+
 /*
 import { HttpServer } from "./Server/Listener";
 

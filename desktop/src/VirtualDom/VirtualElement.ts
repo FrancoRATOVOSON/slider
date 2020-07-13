@@ -63,7 +63,7 @@ class VirtualElement {
 
     ///////////////////////////////////////////////////////////////////
     render(): string {
-        return `<${this.Name}${
+        return `${this.Name == "html" ? "<!DOCTYPE html>\n" : ""}<${this.Name}${
             this.Attributes.Length < 1 ? "" : this.Attributes.render()
         }${
             this.Childs == undefined

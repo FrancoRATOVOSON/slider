@@ -1,7 +1,0 @@
-.step {
-    display: flex;
-    flex-direction: column;
-}
-.step > section {
-    color: red;
-}

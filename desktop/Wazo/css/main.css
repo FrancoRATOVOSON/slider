@@ -1,0 +1,62 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.wazo {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  margin: 0;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(0);
+}
+
+.concept {
+  float: left;
+  height: 100%;
+  transition: transform 0.0001ms;
+  transform: translateY(0);
+}
+
+.concept__view {
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+/**
+**Animations
+**/
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

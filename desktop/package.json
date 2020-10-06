@@ -14,7 +14,7 @@
         "try": "npm run tsc && npm run launch"
     },
     "devDependencies": {
-        "electron": "^9.0.5",
+        "electron": "^9.3.0",
         "ts-node": "^8.10.2"
     },
     "dependencies": {
